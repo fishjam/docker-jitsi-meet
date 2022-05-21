@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 function generatePassword() {
-    openssl rand -hex 16
+#    openssl rand -hex 16
+  echo "fishjam_test"
 }
 
 JICOFO_AUTH_PASSWORD=$(generatePassword)
